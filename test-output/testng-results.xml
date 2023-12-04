@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-02T10:12:50 IST" name="Default suite" finished-at="2023-12-02T10:14:15 IST" duration-ms="85489">
+  <suite started-at="2023-12-04T11:00:05 IST" name="Suite" finished-at="2023-12-04T11:01:23 IST" duration-ms="77882">
     <groups>
+      <group name="food">
+        <method signature="groupexection.swiggy()[pri:0, instance:framework1.groupexection@d86a6f]" name="swiggy" class="framework1.groupexection"/>
+        <method signature="groupexection.zomato()[pri:0, instance:framework1.groupexection@d86a6f]" name="zomato" class="framework1.groupexection"/>
+      </group> <!-- food -->
     </groups>
-    <test started-at="2023-12-02T10:12:50 IST" name="Default test" finished-at="2023-12-02T10:14:15 IST" duration-ms="85489">
-      <class name="framework1.demotest1">
-        <test-method signature="facebookTest()[pri:0, instance:framework1.demotest1@20140db9]" started-at="2023-12-02T10:12:50 IST" name="facebookTest" finished-at="2023-12-02T10:14:15 IST" duration-ms="85392" status="PASS">
+    <test started-at="2023-12-04T11:00:05 IST" name="Test" finished-at="2023-12-04T11:01:23 IST" duration-ms="77882">
+      <class name="framework1.groupexection">
+        <test-method signature="swiggy()[pri:0, instance:framework1.groupexection@d86a6f]" started-at="2023-12-04T11:00:05 IST" name="swiggy" finished-at="2023-12-04T11:00:50 IST" duration-ms="44987" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- facebookTest -->
-      </class> <!-- framework1.demotest1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- swiggy -->
+        <test-method signature="zomato()[pri:0, instance:framework1.groupexection@d86a6f]" started-at="2023-12-04T11:00:50 IST" name="zomato" finished-at="2023-12-04T11:01:23 IST" duration-ms="32724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zomato -->
+      </class> <!-- framework1.groupexection -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
